@@ -1,0 +1,4 @@
+{
+  "globs": ["**/*.md", "!target/**"],
+  "config": { "MD013": false }
+}

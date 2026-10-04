@@ -1,0 +1,16 @@
+[package]
+name = "veil-env"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.98"
+description = "Run a command with secrets injected into its environment"
+license = "MIT"
+repository = "https://github.com/mt4110/veil-env"
+publish = false
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+tokio = { version = "1", features = ["macros", "rt"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", default-features = false, features = ["fmt", "ansi"] }
